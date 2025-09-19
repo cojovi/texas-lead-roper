@@ -1,73 +1,127 @@
-# Welcome to your Lovable project
+# 🤠 Lead Wrangler - Texas-Sized CRM for Sales Teams
 
-## Project info
+*"Wrangle Your Leads, Rope Your Success"* 🎯
 
-**URL**: https://lovable.dev/projects/075653e4-8c89-4b28-af8b-c0aefbc8421a
+Welcome to the wildest CRM this side of the Mississippi! Lead Wrangler is the address-first, AI-native CRM built for door-knockers and sales teams who need to track every lead from knock to cash with Texas-sized efficiency.
 
-## How can I edit this code?
+## 🌟 What Makes This Bad Boy Special?
 
-There are several ways of editing your application.
+### 🏠 Address-First Architecture
+Every property is the anchor, partner! No more duplicate leads, no more confusion. One address, one record, complete history. It's like having a GPS for your sales pipeline.
 
-**Use Lovable**
+### 🤖 AI-Powered Insights
+Smart lead scoring, automated follow-ups, and AI summaries that help you focus on what matters most. Our AI doesn't just crunch numbers - it wrangles them into actionable insights!
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/075653e4-8c89-4b28-af8b-c0aefbc8421a) and start prompting.
+### 👥 Team Collaboration
+Monday.com-style boards and workflows that keep your entire posse in sync across multiple markets. Because teamwork makes the dream work, y'all!
 
-Changes made via Lovable will be committed automatically to this repo.
+### 🔒 Enterprise Security
+Role-based permissions, audit trails, and workspace isolation keep your data secure. We take security seriously - like a Texas Ranger takes their badge.
 
-**Use your preferred IDE**
+## 🚀 Quick Start (Saddle Up!)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisites
+- Node.js (we recommend using [nvm](https://github.com/nvm-sh/nvm) for installation)
+- npm or yarn
+- A Supabase account (for the backend magic)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Installation
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+```bash
+# Clone this beauty
 git clone <YOUR_GIT_URL>
+cd texas-lead-roper
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Install the dependencies (this might take a minute)
+npm install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+That's it! Your Lead Wrangler should be running at `http://localhost:5173` 🎉
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🛠️ Tech Stack (The Tools of the Trade)
 
-**Use GitHub Codespaces**
+- **Frontend**: React 18 + TypeScript + Vite
+- **UI Components**: shadcn/ui + Radix UI + Tailwind CSS
+- **Backend**: Supabase (PostgreSQL + Auth + Real-time)
+- **State Management**: TanStack Query
+- **Routing**: React Router DOM
+- **Forms**: React Hook Form + Zod validation
+- **Icons**: Lucide React
+- **Charts**: Recharts
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🎯 Features That'll Make You Say "Yeehaw!"
 
-## What technologies are used for this project?
+- **Dashboard**: Your command center with stats, recent activity, and quick actions
+- **Properties**: Track every address like a sheriff tracks wanted posters
+- **Leads**: Manage your sales pipeline with AI-powered scoring
+- **Contacts**: Keep track of who's who in your territory
+- **Opportunities**: Turn those leads into gold (or at least closed deals)
+- **Service Tickets**: Handle customer service like a pro
+- **Tasks**: Never miss a follow-up again
+- **Reports**: Analytics that actually make sense
+- **Door Knock Logging**: Because every knock counts
+- **Estimate Creation**: Turn prospects into proposals
 
-This project is built with:
+## 🎨 The Look & Feel
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+We've got that Texas aesthetic down pat:
+- Copper and sage color scheme (because everything's better in Texas)
+- Custom gradients and shadows
+- Responsive design that works on everything from phones to 4K monitors
+- Smooth animations and transitions
+- Dark/light mode support (because even cowboys need options)
 
-## How can I deploy this project?
+## 🏗️ Project Structure
 
-Simply open [Lovable](https://lovable.dev/projects/075653e4-8c89-4b28-af8b-c0aefbc8421a) and click on Share -> Publish.
+```
+src/
+├── components/          # All your UI components
+│   ├── auth/           # Authentication components
+│   ├── dashboard/      # Dashboard-specific components
+│   ├── layout/         # App layout and sidebar
+│   └── ui/             # Reusable UI components (shadcn/ui)
+├── pages/              # Your main application pages
+├── hooks/              # Custom React hooks
+├── integrations/       # External service integrations
+│   └── supabase/       # Supabase client and types
+└── lib/                # Utility functions
+```
 
-## Can I connect a custom domain to my Lovable project?
+## 🚀 Deployment
 
-Yes, you can!
+Ready to take this show on the road? We've got you covered:
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+1. **Development**: `npm run dev` - Your local development server
+2. **Build**: `npm run build` - Production-ready build
+3. **Preview**: `npm run preview` - Test your production build locally
+4. **Lint**: `npm run lint` - Keep your code clean and tidy
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 🤝 Contributing
+
+Want to add your own brand of Texas charm to Lead Wrangler? We'd love to have you on the team!
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🎉 Acknowledgments
+
+- Built with love (and a healthy dose of Texas pride) by **Cojovi & AlinaCode**
+- Special thanks to the shadcn/ui team for the beautiful components
+- Supabase for making backend development actually enjoyable
+- The entire React ecosystem for making this all possible
+
+---
+
+*"Remember, partner - in sales, as in life, it's not about the size of the dog in the fight, it's about the size of the fight in the dog. And Lead Wrangler? Well, it's got fight in spades."* 🤠
+
+**Built by Cojovi & AlinaCode** 🚀

@@ -17,7 +17,7 @@ const Dashboard = () => {
         <div 
           className="absolute -top-16 -right-16 w-[500px] h-[500px] opacity-[0.08] transform rotate-12 transition-all duration-1000"
           style={{
-            backgroundImage: `url(/lovable-uploads/66dd8bbe-07df-4be7-ad54-ff0988f53fce.png)`,
+            backgroundImage: `url(/uploads/66dd8bbe-07df-4be7-ad54-ff0988f53fce.png)`,
             backgroundSize: 'contain',
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center',
@@ -28,7 +28,7 @@ const Dashboard = () => {
         <div 
           className="absolute bottom-0 -left-16 w-80 h-80 opacity-[0.06] transform -rotate-6"
           style={{
-            backgroundImage: `url(/lovable-uploads/66dd8bbe-07df-4be7-ad54-ff0988f53fce.png)`,
+            backgroundImage: `url(/uploads/66dd8bbe-07df-4be7-ad54-ff0988f53fce.png)`,
             backgroundSize: 'contain',
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center',
@@ -39,7 +39,7 @@ const Dashboard = () => {
         <div 
           className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] opacity-[0.03]"
           style={{
-            backgroundImage: `url(/lovable-uploads/66dd8bbe-07df-4be7-ad54-ff0988f53fce.png)`,
+            backgroundImage: `url(/uploads/66dd8bbe-07df-4be7-ad54-ff0988f53fce.png)`,
             backgroundSize: 'contain',
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center',

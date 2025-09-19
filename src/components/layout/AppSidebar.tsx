@@ -80,7 +80,7 @@ export const AppSidebar = ({ user }: AppSidebarProps) => {
           <div className="relative group">
             <div className="absolute -inset-2 bg-gradient-copper rounded-lg blur opacity-25 group-hover:opacity-40 transition duration-300"></div>
             <img 
-              src="/lovable-uploads/c0b242e2-5443-4955-a498-c225fb78a2d9.png" 
+              src="/uploads/c0b242e2-5443-4955-a498-c225fb78a2d9.png" 
               alt="Lead Wrangler" 
               className="h-20 w-20 relative shadow-copper hover:scale-105 transition-all duration-300"
               onError={(e) => {
